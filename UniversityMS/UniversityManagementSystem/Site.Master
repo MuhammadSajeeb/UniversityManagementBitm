@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UniversityManagementSystem.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+ <head runat="server">
+   <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"/>
+     <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                          <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="#" id="DepartmentnavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Department</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                       <a class="dropdown-item" href="AddDepartment.aspx">Add Department</a>
+                                         <div class="dropdown-divider"></div>
+                                             <a class="dropdown-item" href="ViewDepartment.aspx">View All Department</a>
+                                        </div>
+                                   </li>
+                            <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="#" id="CoursenavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Course</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                       <a class="dropdown-item" href="AddCourse.aspx">Add Course</a>
+                                         <div class="dropdown-divider"></div>
+                                             <a class="dropdown-item" href="ViewCourseStatics.aspx">View All Course</a>
+                                        </div>
+                                   </li>
+                            <li class="nav-item dropdown">
+                               <a class="nav-link dropdown-toggle" href="#" id="TeachersnavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Teachers</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                       <a class="dropdown-item" href="AddTeacher.aspx">Save Teacher</a>
+                                         <div class="dropdown-divider"></div>
+                                             <a class="dropdown-item" href="CourseAssigne.aspx">Course Assigne</a>
+                                        </div>
+                                   </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="StudentsnavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Students</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="AddStudents.aspx">Save Students</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="EnrollCourses.aspx">Enroll Courses</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="AllocateRoomnavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Class Rooms</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="AllocateRoom.aspx">Allocate Class</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="ViewClassSchedules.aspx">View Class Schedule</a>
+                            </div>
+                        </li>
+                        </ul>
+                          <ul class="navbar-nav mr-right nav justify-content-right">
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Register</a>
+                             </li>
+                               <li class="nav-item">
+                                  <a class="nav-link" href="#">Login</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Logout</a>
+                                </li>
+                          </ul>
+                     </div>
+                </nav>
+            </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+</body>
+</html>

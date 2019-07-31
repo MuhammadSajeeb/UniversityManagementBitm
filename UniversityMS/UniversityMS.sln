@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 UserInterface", "01 UserInterface", "{CE1E842D-1978-44F6-BB9C-CE5CCA494558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 BuisnessLogicLayer", "02 BuisnessLogicLayer", "{7FAF2D65-5A7B-47B2-B941-737BC8861ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 DataAccessLayer", "03 DataAccessLayer", "{00AA04CF-9EE1-40CC-BAA9-4377A674925D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Core", "04 Core", "{776C3993-3567-4546-A79B-5EBC2EC58E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ums.Core", "Ums.Core\Ums.Core.csproj", "{509561A6-A6B3-42C0-9642-8010C25CCACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ums.Managers", "Ums.Managers\Ums.Managers.csproj", "{05E5F161-448E-47E7-8EC7-40A181CE96F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ums.Persistancis", "Ums.Persistancis\Ums.Persistancis.csproj", "{88FCA702-CE39-4915-91B1-3C00FC8056CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityManagement", "UniversityManagement\UniversityManagement.csproj", "{15769081-64B2-49FD-9E3D-95E08B905A67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509561A6-A6B3-42C0-9642-8010C25CCACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509561A6-A6B3-42C0-9642-8010C25CCACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509561A6-A6B3-42C0-9642-8010C25CCACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509561A6-A6B3-42C0-9642-8010C25CCACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E5F161-448E-47E7-8EC7-40A181CE96F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E5F161-448E-47E7-8EC7-40A181CE96F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E5F161-448E-47E7-8EC7-40A181CE96F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E5F161-448E-47E7-8EC7-40A181CE96F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FCA702-CE39-4915-91B1-3C00FC8056CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FCA702-CE39-4915-91B1-3C00FC8056CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FCA702-CE39-4915-91B1-3C00FC8056CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FCA702-CE39-4915-91B1-3C00FC8056CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15769081-64B2-49FD-9E3D-95E08B905A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15769081-64B2-49FD-9E3D-95E08B905A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15769081-64B2-49FD-9E3D-95E08B905A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15769081-64B2-49FD-9E3D-95E08B905A67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{509561A6-A6B3-42C0-9642-8010C25CCACB} = {776C3993-3567-4546-A79B-5EBC2EC58E2A}
+		{05E5F161-448E-47E7-8EC7-40A181CE96F5} = {7FAF2D65-5A7B-47B2-B941-737BC8861ECC}
+		{88FCA702-CE39-4915-91B1-3C00FC8056CF} = {00AA04CF-9EE1-40CC-BAA9-4377A674925D}
+		{15769081-64B2-49FD-9E3D-95E08B905A67} = {CE1E842D-1978-44F6-BB9C-CE5CCA494558}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30802C95-EBD7-410C-B8CA-2305CB7A852F}
+	EndGlobalSection
+EndGlobal
