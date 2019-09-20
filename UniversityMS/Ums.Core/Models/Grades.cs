@@ -10,5 +10,6 @@ namespace Ums.Core.Models
     {
         public int Id { get; set; }
         public string GradeName { get; set; }
+        public string Empty { get; set; }
     }
 }
